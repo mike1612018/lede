@@ -113,7 +113,7 @@ jobs:
            CONFIG_PACKAGE_kmod-fs-nfs-v4=y
            CONFIG_PACKAGE_kmod-fs-ntfs=y
            CONFIG_PACKAGE_kmod-fs-squashfs=y
-          # EOF
+           EOF
           # USB3.0支持:
           # cat >> .config <<EOF
           # CONFIG_PACKAGE_kmod-usb-ohci=y
@@ -146,7 +146,7 @@ jobs:
           # CONFIG_PACKAGE_luci-app-wireguard=y
           # CONFIG_PACKAGE_luci-app-wrtbwmon=y
            CONFIG_PACKAGE_luci-app-unblockmusic=y
-          # EOF
+           EOF
           # LuCI主题:
            cat >> .config <<EOF
            CONFIG_PACKAGE_luci-theme-argon=y
